@@ -6,7 +6,8 @@ const playerSprite = {
     y: 50, // En qué y del archivo tiene que empezar a coger personaje
   
   };
-  playerSprite.sprite.src = "./Images/auto.png"; // Le asigno el archivo como source del sprite
+  // playerSprite.sprite.src = "./Images/car.png"; // Le asigno el archivo como source del sprite
+  playerSprite.sprite.src = "./Images/car.png"; // Le asigno el archivo como source del sprite
 
   const truckSprite = {
     sprite: new Image(), // Creo un nuevo objeto imagen
